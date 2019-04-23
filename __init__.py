@@ -14,3 +14,5 @@ class FirstRoboticsSkill(MycroftSkill):
     def handle_stop_robot(self, message):
         self.speak_dialog('stop.robot')
 
+def create_skill():
+    return FirstRoboticsSkill()
